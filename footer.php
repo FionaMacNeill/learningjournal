@@ -47,6 +47,12 @@
 					 */
 					do_action( 'twentysixteen_credits' );
 				?>
+				<a href="http://www.w3.org/WAI/WCAG2AAA-Conformance"
+                title="Explanation of WCAG 2.0 Level Triple-A Conformance">
+                <img height="32" width="88" 
+                src="http://www.w3.org/WAI/wcag2AAA"
+                alt="Level Triple-A conformance, 
+                W3C WAI Web Content Accessibility Guidelines 2.0"><p></p></a>
 				<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
 				<a href="<?php echo esc_url( __( 'http://itsuite.it.brighton.ac.uk/fjm19/idm18journal', 'twentysixteen child', 'by F. MacNeill' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentysixteen child' ), 'WordPress' ); ?></a>
 			</div><!-- .site-info -->
