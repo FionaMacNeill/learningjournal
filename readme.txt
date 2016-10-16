@@ -52,9 +52,10 @@ Image used in screenshot.png: A photo by Austin Schmid (https://unsplash.com/sch
 == Changelog ==
 
 = 1.0 =
-* Released: August 16, 2016
+* Released: October 16, 2016
 
 https://github.com/FionaMacNeill/learningjournal
+Release: https://github.com/FionaMacNeill/learningjournal/tree/1.0
 
 == Notes ==
 
