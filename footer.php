@@ -49,13 +49,19 @@
 				?>
 				<a href="http://www.w3.org/WAI/WCAG2AA-Conformance"
      			 title="Explanation of WCAG 2.0 Level Double-A Conformance">
-
+                    <!-- WCAG badge-->
   					<img height="32" width="88" 
           			src="http://www.w3.org/WAI/wcag2AA-blue"
           			alt="Level Double-A conformance, 
           			W3C WAI Web Content Accessibility Guidelines 2.0"></a><p></p>
-				<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-				<a href="<?php echo esc_url( __( 'http://itsuite.it.brighton.ac.uk/fjm19/idm18journal', 'twentysixteen child', 'by F. MacNeill' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentysixteen child' ), 'WordPress' ); ?></a>
+                    <!--"site-title" class which includes "/" dividers-->
+				<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" ><?php bloginfo( 'name' ); ?></a></span>
+                <a href="<?php echo esc_url( __( 'https://about.me/fmacneill' ) ); ?>">
+                    <?php printf( __( 'twentysixteen child by F. MacNeill' ) ); ?></a>
+                    <!-- divider 2-->
+                <span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="homepage"></a></span>
+                <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentysixteen child' ) ); ?>">
+                    <?php printf( __( 'Proudly powered by %s'), 'WordPress' ); ?></a>
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->
 	</div><!-- .site-inner -->
