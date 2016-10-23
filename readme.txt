@@ -51,7 +51,13 @@ Image used in screenshot.png: A photo by Austin Schmid (https://unsplash.com/sch
 
 == Changelog ==
 
-= 1.0 =
+= 1.1 production release =
+* Released: October 21, 2016
+
+https://github.com/FionaMacNeill/learningjournal
+https://github.com/FionaMacNeill/learningjournal/releases/tag/1.1
+
+= 1.0 pre-release =
 * Released: October 16, 2016
 
 https://github.com/FionaMacNeill/learningjournal
