@@ -5,7 +5,7 @@ Description: Twenty Sixteen Child theme -Original description- Twenty Sixteen is
 Author: Fiona MacNeill (after the WordPress team)
 Author URI: http://blogs.brighton.ac.uk/fjm15
 Template: twentysixteen
-Version: 1.0.0 (1.3)
+Version: 1.1 (1.3)
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
@@ -26,8 +26,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /**
  * 1.0 - Typography
- *
- *
+ * 2.0 - Theme change button
+ * 3.0 - Stylesheet widget layout
  */
 
 body,
@@ -40,4 +40,24 @@ textarea {
     font-size: 16px;
     font-size: 1rem;
     line-height: 1.75;
+}
+
+/**
+ * 2.0 - Theme change button
+ *
+ *
+ */
+button.wp_user_stylesheet_switcher_button {
+	padding: 0;
+	margin: 1px;
+	border: black solid 1px;
+}
+
+/**
+ * 3.0 - Stylesheet widget layout
+ *
+ *
+ */
+section#wp_user_stylesheet_switcher_widgets-2 {
+    padding-right: 5em;
 }
