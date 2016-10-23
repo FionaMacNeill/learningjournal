@@ -1,0 +1,54 @@
+/*
+Theme Name: Twenty Sixteen Child - alternative stylesheet - stylegreen1
+Theme URI: http://itsuite.it.brighton.ac.uk/fjm19/idm18journal/
+Description: Twenty Sixteen Child
+Author: Fiona MacNeill (after the WordPress team)
+Author URI: http://blogs.brighton.ac.uk/fjm15
+Template: twentysixteen
+Description: Inspired by Irlen colours from http://irlen.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: twentysixteen-child
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Typography
+ * 2.0 - Site background color
+ */
+
+
+/**
+ * 1.0 - Typography
+ *
+ *
+ */
+
+body,
+button,
+input,
+select,
+textarea {
+    color: #1a1a1a;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+/**
+ * 2.0 - Site background color
+ *
+ *
+ */
+
+.site {
+	background-color: #a6f8e3;
+}
+
+
