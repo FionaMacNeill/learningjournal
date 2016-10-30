@@ -1,0 +1,42 @@
+/*
+Theme Name: Twenty Sixteen Child - alternative stylesheet - stylegreen2
+css: @import url("../twentysixteen-child/style.css");
+Description: Inspired by Irlen colours from http://irlen.com/
+
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Typography
+ * 2.0 - Site background color
+ */
+
+
+/**
+ * 1.0 - Typography
+ *
+ *
+ */
+
+body,
+button,
+input,
+select,
+textarea {
+    color: #1a1a1a;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+/**
+ * 2.0 - Site background color
+ *
+ *
+ */
+
+.site {
+	background-color: #aaf2a0;
+}
+
+

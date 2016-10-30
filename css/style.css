@@ -1,0 +1,47 @@
+/*
+Theme Name: Twenty Sixteen Child - white
+css: @import url("../twentysixteen-child/style.css");
+*/
+
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Typography
+
+ */
+
+
+/**
+ * 1.0 - Typography
+ * 2.0 - Theme change button
+ * 3.0 - Stylesheet widget layout
+ */
+
+body,
+button,
+input,
+select,
+textarea {
+    color: #1a1a1a;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+/**
+ * 2.0 - Theme change button
+ *
+ *
+ */
+button.wp_user_stylesheet_switcher_button {
+	padding: 1px;
+	margin: 1px;
+	border: black solid 1px;
+
+}
+
+img.wp_user_stylesheet_switcher_icon {
+	border: 1px;
+}
