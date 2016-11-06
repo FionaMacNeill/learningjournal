@@ -59,8 +59,7 @@
                 <a href="<?php echo esc_url( __( 'https://about.me/fmacneill' ) ); ?>">
                     <?php printf( __( 'twentysixteen child by F. MacNeill' ) ); ?></a>
                     <!-- divider 2-->
-                <span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="homepage"></a></span>
-                <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentysixteen child' ) ); ?>">
+                <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentysixteen child' ) ); ?>" title="theme name">
                     <?php printf( __( 'Proudly powered by %s'), 'WordPress' ); ?></a>
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->
