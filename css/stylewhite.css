@@ -1,0 +1,28 @@
+/*
+Theme Name: Twenty Sixteen Child - white
+css: @import url("../twentysixteen-child/style.css");
+*/
+
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Typography
+ */
+
+
+/**
+ * 1.0 - Typography
+ */
+
+body,
+button,
+input,
+select,
+textarea {
+    color: #1a1a1a;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.75;
+}
