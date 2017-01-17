@@ -20,9 +20,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * Table of Contents
  *
  * 1.0 - Typography
- * 2.9 - Widget-title text-transform adjustment
- * 3.0 - Theme change button
+ * 2.0 - Widget-title text-transform adjustment
+ * 3.0 - Style for references
  * 4.0 - Font display for accessibility widget
+ * 5.0 - Theme change button
+ * 6.0 - Custom div for Gridlandish
  */
 
 body,
@@ -48,19 +50,15 @@ textarea {
 }
 
 /**
- * 3.0 - Theme change button
+ * 3.0 - p style for references
  *
  *
  */
-button.wp_user_stylesheet_switcher_button {
-	padding: 1px;
-	margin: 1px;
-	border: black solid 1px;
-
-}
-
-img.wp_user_stylesheet_switcher_icon {
-	border: 1px;
+ 
+ p.reference {
+    padding-left: 4em;
+    text-indent: -4em;
+    font-size: 0.9em;
 }
 
 /**
@@ -87,3 +85,42 @@ a#is_large_fontsize {
     font-family: Montserrat, "Helvetica Neue", sans-serif;
     font-size: 1.3em;
 }
+
+/**
+ * 5.0 - Theme change button
+ *
+ *
+ */
+button.wp_user_stylesheet_switcher_button {
+	padding: 1px;
+	margin: 1px;
+	border: black solid 1px;
+
+}
+
+img.wp_user_stylesheet_switcher_icon {
+	border: 1px;
+}
+
+/**
+ * 6.0 - Custom div for Gridlandish - SEE Gridlandish page
+ *
+ *
+ */
+ 
+.resizable {
+	resize: both;
+	overflow: auto;
+	border:1px solid black;
+	height: 100%;
+	width: 100%;
+	min-width: 630px;
+}
+
+@media (max-width: 470px){
+	.resizable {
+		height: 100%;
+		width: 100%;
+	}
+}
+ 
